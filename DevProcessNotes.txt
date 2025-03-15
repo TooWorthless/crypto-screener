@@ -1,0 +1,10 @@
+SetUp:
+    npm create vite@latest crypto-screener -- --template react-ts
+    npm install --save-dev eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/eslint-plugin @typescript-eslint/parser
+    npm install --save-dev husky lint-staged
+    npx husky init
+
+    npm install @tanstack/react-query zustand tailwindcss postcss autoprefixer react-virtualized
+    npm install --save-dev @types/react-virtualized
+
+    npx tailwindcss init -p
